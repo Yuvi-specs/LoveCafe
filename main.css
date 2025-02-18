@@ -1,0 +1,19 @@
+html{
+    font-size: 21px;
+  }
+ 
+ body {
+    background: hsl(300, 27.80%, 92.90%);
+    margin: 0;
+  }
+  * { 
+    box-sizing: border-box; 
+  }
+   .column { 
+    float: left; 
+    width: 33.33%; 
+    padding: 5px; 
+  }
+   .row::after{ 
+   content: 
+  }

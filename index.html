@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveCafe</title>
+    <link rel="icon" href="D:\projet-1\image\logo.avif" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <fieldset>
+            <legend>LoveCafe</legend>       
+            <img src="D:\projet-1\image\logo.avif" width="500" height="300" alt="image.." title="LoveCafe">
+            <div class="column">
+              <h2>Coffe&More>>></h2>
+              <p>"Coffee is not just a drink; it’s an experience that brings people together, one cup at a time."
+              </p>
+              </div> 
+        </fieldset>
+        <hr>
+        <p>
+            <label for="tea">Drink...</label>
+            <select name="tea" id="tea">
+              <optgroup label="tea">
+              <option value="regular tea">regular tea</option>
+              <option value="masala tea">masala tea</option>
+              <option value="rose tea">rose tea</option>
+              <option value="black tea">black tea</option>
+            </optgroup>
+              <optgroup label="coffe">
+              <option value="plane coffe">plane coffee</option>
+              <option value="Americano">Americano</option>
+              <option value="Latte">Latte</option>
+              <option value="Cappuccino">Cappuccino</option>
+              <option value="mocha">mocha</option>
+              <option value="Affogato">Affogato</option>
+            </optgroup>
+              <optgroup label="otherDrink">
+              <option value="other">other...</option>
+            </optgroup>
+            </select>
+            <button type="order">Order</button>
+          </p>
+          <p>
+            <label for="food">food</label>
+            <select name="food" id="food">
+              <optgroup label="Food">
+              <option value="pizza">pizza</option>
+              <option value="Burger">Burger</option>
+              <option value="cupcace">cupcake</option>
+            </optgroup>
+              <optgroup label="ComboFood">
+              <option value="Burger&FrenchFries">Burger&FrenchFries</option>
+              <option value="Americano">healthyDrink</option>
+              <option value="NonvegSpec.">NonvegSpec.</option>
+              <option value="Cappuccino">Cappuccino</option>
+            </optgroup>
+              <optgroup label="WeekendSpec.">
+              <option value="WeekendSpec.">WeekendSpec.</option>
+            </optgroup>
+            </select>
+            <button type="order">Order</button>
+
+          </p>
+          <hr>
+    </header>
+    <div class="row"> 
+      <div class="column"> 
+        <img src="D:\projet-1\image\maindoor.jpg" width="100%;">
+       </div> 
+        <div class="column">
+           <img src="D:\projet-1\image\insidecafe.jpg" width="500;"height="510">
+           </div> 
+          </div>
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <legend>personal info.</legend>
+     <p>
+      <label for="firstName">first name:</label>
+      <input type="text" name="firstName" id="firstName" placeholder="yuvraj"
+       autocomplete="on" required autofocus></p>
+       <p>
+       <label for="lastName">last name:</label>
+       <input type="text" name="lastName" id="lastName" placeholder="singh"
+        autocomplete="on" required></p>
+        <p>
+          <label for="password">enter your password:</label>
+          <input type="password" name="password" id="password" placeholder="123456"
+           autocomplete="on" required></p>
+          <p>
+          <label for="phone">enter phone no.:</label>
+          <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="[0-9]{10}"
+           autocomplete="on" required></p>
+           <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        </fieldset>
+        <fieldset>
+          <legend>ShareExperience</legend>
+          <label for="message">your message:</label>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="10" 
+          placeholder="type your message here"></textarea>
+          <button type="submit" formaction="http://httpbin.org/post" formmethod="post">post</button>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>RatingUs</legend>
+            <p>
+              <input type="checkbox">
+            <label for="*">*</label>   
+                <input type="checkbox">
+              <label for="**">**</label>   
+                  <input type="checkbox">
+                <label for="***">***</label>   
+                    <input type="checkbox">
+            <label for="****">****</label>  
+                    <input type="checkbox">
+            <label for="*****">*****</label>  
+                  <button type="submit" formaction="http://httpbin.org/post" formmethod="post">post</button>
+            </p>
+        </fieldset>
+      </form> 
+    <ul>
+        <li> <address>
+          VARANASI_221002
+            PRAYAGRAJ_221007
+        </address>CafeSpec.</li>
+        <li>dial <a href="tel: +919956771051">my contact number</a></li>
+    </ul>
+      <p>
+        <a href="#">back to top</a>
+      </p>
+    </p>
+    <a href="D:\projet-1\image\new.html">top dishes of our cafe >>></a>
+    <p> 
+      &lt;&lt;&copy;<abbr title="aao na....">LoveCafe</abbr> &gt;&gt;
+      <p style="text-align: center; background-color: rgb(212, 234, 226);">...ThankYou...</p>
+ 
+</body>
+</html>
